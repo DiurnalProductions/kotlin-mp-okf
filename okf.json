@@ -1,0 +1,8 @@
+{
+  "id": "kotlin-mp-okf",
+  "name": "Kotlin Multiplatform Knowledge Pack",
+  "version": "0.1",
+  "description": "OKF knowledge base for Kotlin Multiplatform (shared code, expect/actual, platform abstraction, architecture, and concurrency)",
+  "entry": "index.md",
+  "tags": ["kotlin", "multiplatform", "kmp", "shared-code", "architecture"]
+}
