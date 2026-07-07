@@ -1,16 +1,15 @@
 ---
-id: kmp.portability_constraints
-type: concept
+type: Concept
 title: Portability Constraints
-description: Language, standard library, and third-party library limitations that restrict what can live in shared KMP code.
+description: "Language, standard library, and third-party library limitations that restrict what can live in shared KMP code."
 tags: [kotlin-multiplatform, portability, constraints, libraries]
 prerequisites:
-  - kmp.abstraction_boundaries
+  - concepts/abstraction-boundaries
 related:
-  - kmp.shared_dependencies
-  - kmp.platform_safe_models
-  - kmp.binary_compatibility
-resource: https://kotlinlang.org/docs/multiplatform-share-libraries.html
+  - concepts/shared-dependencies
+  - concepts/platform-safe-models
+  - concepts/binary-compatibility
+resource: "https://kotlinlang.org/docs/multiplatform-share-libraries.html"
 timestamp: 2026-01-01
 ---
 

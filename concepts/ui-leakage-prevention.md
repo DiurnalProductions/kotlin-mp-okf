@@ -1,16 +1,15 @@
 ---
-id: kmp.ui_leakage_prevention
-type: concept
+type: Concept
 title: UI Leakage Prevention
-description: Patterns that prevent UI frameworks, resources, and presentation assumptions from entering shared KMP modules.
+description: "Patterns that prevent UI frameworks, resources, and presentation assumptions from entering shared KMP modules."
 tags: [kotlin-multiplatform, ui, architecture, boundaries]
 prerequisites:
-  - kmp.shared_logic_vs_ui
-  - kmp.abstraction_boundaries
+  - concepts/shared-logic-vs-ui
+  - concepts/abstraction-boundaries
 related:
-  - kmp.compose_multiplatform_overview
-  - kmp.shared_domain_layer
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/compose-multiplatform-overview
+  - concepts/shared-domain-layer
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 

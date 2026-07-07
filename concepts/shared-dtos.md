@@ -1,16 +1,15 @@
 ---
-id: kmp.shared_dtos
-type: concept
+type: Concept
 title: Shared DTOs
-description: Data transfer objects defined once in commonMain for API payloads, persistence records, and cross-layer communication.
+description: "Data transfer objects defined once in commonMain for API payloads, persistence records, and cross-layer communication."
 tags: [kotlin-multiplatform, dto, models, serialization]
 prerequisites:
-  - kmp.kotlinx_serialization
+  - concepts/kotlinx-serialization
 related:
-  - kmp.platform_safe_models
-  - kmp.shared_domain_layer
-  - kmp.networking_abstraction
-resource: https://kotlinlang.org/docs/multiplatform-share-libraries.html
+  - concepts/platform-safe-models
+  - concepts/shared-domain-layer
+  - concepts/networking-abstraction
+resource: "https://kotlinlang.org/docs/multiplatform-share-libraries.html"
 timestamp: 2026-01-01
 ---
 

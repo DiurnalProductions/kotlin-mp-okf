@@ -1,17 +1,16 @@
 ---
-id: kmp.expect_declarations
-type: concept
+type: Concept
 title: Expect Declarations
 description: Declaring platform-dependent contracts in shared code that each target must fulfill with an actual implementation.
 tags: [kotlin-multiplatform, expect-actual, declarations]
 prerequisites:
-  - kmp.abstraction_boundaries
-  - kmp.shared_vs_platform
+  - concepts/abstraction-boundaries
+  - concepts/shared-vs-platform
 related:
-  - kmp.actual_implementations
-  - kmp.expect_actual_resolution
-  - kmp.expect_actual_architecture
-resource: https://kotlinlang.org/docs/multiplatform-expect-actual.html
+  - concepts/actual-implementations
+  - concepts/expect-actual-resolution
+  - concepts/expect-actual-architecture
+resource: "https://kotlinlang.org/docs/multiplatform-expect-actual.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,15 +1,14 @@
 ---
-id: kmp.transitive_constraints
-type: concept
+type: Concept
 title: Transitive Constraints
-description: How dependency graphs propagate through KMP source sets and the impact on binary size, compile time, and target compatibility.
+description: "How dependency graphs propagate through KMP source sets and the impact on binary size, compile time, and target compatibility."
 tags: [kotlin-multiplatform, dependencies, transitive, gradle]
 prerequisites:
-  - kmp.shared_dependencies
+  - concepts/shared-dependencies
 related:
-  - kmp.binary_compatibility
-  - kmp.native_compilation_costs
-resource: https://kotlinlang.org/docs/multiplatform-share-libraries.html
+  - concepts/binary-compatibility
+  - concepts/native-compilation-costs
+resource: "https://kotlinlang.org/docs/multiplatform-share-libraries.html"
 timestamp: 2026-01-01
 ---
 

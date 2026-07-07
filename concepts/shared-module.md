@@ -1,16 +1,15 @@
 ---
-id: kmp.shared_module
-type: concept
+type: Concept
 title: Shared Module
 description: The KMP library module containing commonMain and platform source sets that hold portable business logic consumed by all app targets.
 tags: [kotlin-multiplatform, modules, shared-code, architecture]
 prerequisites:
-  - kmp.source_sets
+  - concepts/source-sets
 related:
-  - kmp.platform_modules
-  - kmp.shared_domain_layer
-  - kmp.gradle_configuration
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/platform-modules
+  - concepts/shared-domain-layer
+  - concepts/gradle-configuration
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 

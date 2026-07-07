@@ -1,16 +1,15 @@
 ---
-id: kmp.dispatchers_differences
-type: concept
+type: Concept
 title: Dispatchers Differences
-description: How Dispatchers.Main, Dispatchers.IO, and Dispatchers.Default map to platform-specific thread pools and executors.
+description: "How Dispatchers.Main, Dispatchers.IO, and Dispatchers.Default map to platform-specific thread pools and executors."
 tags: [kotlin-multiplatform, coroutines, dispatchers, threading]
 prerequisites:
-  - kmp.coroutines_multiplatform
-  - kmp.threading_differences
+  - concepts/coroutines-multiplatform
+  - concepts/threading-differences
 related:
-  - kmp.platform_threading_model
-  - kmp.structured_concurrency
-resource: https://kotlinlang.org/docs/multiplatform-mobile-understand-threading-model.html
+  - concepts/platform-threading-model
+  - concepts/structured-concurrency
+resource: "https://kotlinlang.org/docs/multiplatform-mobile-understand-threading-model.html"
 timestamp: 2026-01-01
 ---
 

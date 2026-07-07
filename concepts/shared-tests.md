@@ -1,17 +1,16 @@
 ---
-id: kmp.shared_tests
-type: concept
+type: Concept
 title: Shared Tests
 description: Unit and integration tests in commonTest that verify portable logic runs correctly on all supported targets.
 tags: [kotlin-multiplatform, testing, commonTest, unit-tests]
 prerequisites:
-  - kmp.shared_module
-  - kmp.source_sets
+  - concepts/shared-module
+  - concepts/source-sets
 related:
-  - kmp.platform_specific_tests
-  - kmp.test_source_sets
-  - kmp.mocking_expectations
-resource: https://kotlinlang.org/docs/multiplatform-run-tests.html
+  - concepts/platform-specific-tests
+  - concepts/test-source-sets
+  - concepts/mocking-expectations
+resource: "https://kotlinlang.org/docs/multiplatform-run-tests.html"
 timestamp: 2026-01-01
 ---
 

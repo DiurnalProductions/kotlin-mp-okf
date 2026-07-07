@@ -1,15 +1,14 @@
 ---
-id: kmp.time_apis
-type: concept
+type: Concept
 title: Time APIs
-description: Clocks, instants, durations, and time zones in shared KMP code using multiplatform-safe libraries.
+description: "Clocks, instants, durations, and time zones in shared KMP code using multiplatform-safe libraries."
 tags: [kotlin-multiplatform, time, datetime, kotlinx-datetime]
 prerequisites:
-  - kmp.abstraction_boundaries
+  - concepts/abstraction-boundaries
 related:
-  - kmp.portability_constraints
-  - kmp.platform_safe_models
-resource: https://github.com/Kotlin/kotlinx-datetime
+  - concepts/portability-constraints
+  - concepts/platform-safe-models
+resource: "https://github.com/Kotlin/kotlinx-datetime"
 timestamp: 2026-01-01
 ---
 

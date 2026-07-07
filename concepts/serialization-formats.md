@@ -1,15 +1,14 @@
 ---
-id: kmp.serialization_formats
-type: concept
+type: Concept
 title: Serialization Formats
-description: JSON, ProtoBuf, CBOR, and binary format trade-offs for multiplatform data exchange.
+description: "JSON, ProtoBuf, CBOR, and binary format trade-offs for multiplatform data exchange."
 tags: [kotlin-multiplatform, serialization, json, protobuf, binary]
 prerequisites:
-  - kmp.kotlinx_serialization
+  - concepts/kotlinx-serialization
 related:
-  - kmp.shared_dtos
-  - kmp.networking_abstraction
-resource: https://github.com/Kotlin/kotlinx.serialization/blob/master/docs/formats.md
+  - concepts/shared-dtos
+  - concepts/networking-abstraction
+resource: "https://github.com/Kotlin/kotlinx.serialization/blob/master/docs/formats.md"
 timestamp: 2026-01-01
 ---
 

@@ -1,16 +1,15 @@
 ---
-id: kmp.networking_abstraction
-type: concept
+type: Concept
 title: Networking Abstraction
-description: HTTP clients, TLS, certificate pinning, and transport configuration isolated per platform behind shared interfaces.
+description: "HTTP clients, TLS, certificate pinning, and transport configuration isolated per platform behind shared interfaces."
 tags: [kotlin-multiplatform, networking, http, ktor, abstraction]
 prerequisites:
-  - kmp.abstraction_boundaries
+  - concepts/abstraction-boundaries
 related:
-  - kmp.repository_abstraction
-  - kmp.platform_dependencies
-  - kmp.shared_dtos
-resource: https://ktor.io/docs/client-multiplatform.html
+  - concepts/repository-abstraction
+  - concepts/platform-dependencies
+  - concepts/shared-dtos
+resource: "https://ktor.io/docs/client-multiplatform.html"
 timestamp: 2026-01-01
 ---
 

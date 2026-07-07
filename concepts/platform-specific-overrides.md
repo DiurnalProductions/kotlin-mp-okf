@@ -1,15 +1,14 @@
 ---
-id: kmp.platform_specific_overrides
-type: concept
+type: Concept
 title: Platform-Specific Overrides
 description: Targeting individual platforms or platform families within the expect/actual and source set hierarchy.
 tags: [kotlin-multiplatform, expect-actual, platform-specific]
 prerequisites:
-  - kmp.expect_actual_resolution
+  - concepts/expect-actual-resolution
 related:
-  - kmp.hierarchical_source_sets
-  - kmp.actual_implementations
-resource: https://kotlinlang.org/docs/multiplatform-hierarchy.html
+  - concepts/hierarchical-source-sets
+  - concepts/actual-implementations
+resource: "https://kotlinlang.org/docs/multiplatform-hierarchy.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: kmp.shared_logic_vs_ui
-type: concept
+type: Concept
 title: Shared Logic vs Platform UI
 description: Separating presentation from portable business logic so shared modules remain UI-framework agnostic.
 tags: [kotlin-multiplatform, ui, architecture, separation]
 prerequisites:
-  - kmp.shared_vs_platform
-  - kmp.abstraction_boundaries
+  - concepts/shared-vs-platform
+  - concepts/abstraction-boundaries
 related:
-  - kmp.compose_multiplatform_overview
-  - kmp.ui_leakage_prevention
-  - kmp.clean_architecture_kmp
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/compose-multiplatform-overview
+  - concepts/ui-leakage-prevention
+  - concepts/clean-architecture-kmp
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 

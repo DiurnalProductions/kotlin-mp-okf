@@ -1,17 +1,16 @@
 ---
-id: kmp.shared_domain_layer
-type: concept
+type: Concept
 title: Shared Domain Layer
-description: Entities, value objects, use cases, and business rules expressed once in commonMain independent of platform or UI.
+description: "Entities, value objects, use cases, and business rules expressed once in commonMain independent of platform or UI."
 tags: [kotlin-multiplatform, domain, clean-architecture, use-cases]
 prerequisites:
-  - kmp.abstraction_boundaries
-  - kmp.shared_module
+  - concepts/abstraction-boundaries
+  - concepts/shared-module
 related:
-  - kmp.repository_abstraction
-  - kmp.clean_architecture_kmp
-  - kmp.shared_dtos
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/repository-abstraction
+  - concepts/clean-architecture-kmp
+  - concepts/shared-dtos
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 

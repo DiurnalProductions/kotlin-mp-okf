@@ -1,21 +1,20 @@
 ---
-id: kmp.compose_multiplatform_overview
-type: concept
+type: Concept
 title: Compose Multiplatform Overview
 description: Conceptual overview of sharing UI with Compose Multiplatform while keeping platform shells and integrations separate.
 tags: [kotlin-multiplatform, compose, ui, cmp]
 prerequisites:
-  - kmp.shared_logic_vs_ui
+  - concepts/shared-logic-vs-ui
 related:
-  - kmp.ui_leakage_prevention
-  - kmp.platform_modules
-resource: https://www.jetbrains.com/compose-multiplatform/
-timestamp: 2026-01-01
+  - concepts/ui-leakage-prevention
+  - concepts/platform-modules
+resource: "https://www.jetbrains.com/compose-multiplatform/"
+timestamp: 2026-07-06
 ---
 
 ## Summary
 
-Compose Multiplatform (CMP) extends Jetpack Compose to desktop, iOS, and web, allowing shared UI in `commonMain` alongside shared logic. It is a separate concern from core KMP — this pack treats CMP conceptually. Even with CMP, platform entry points, permissions, and system integrations remain in platform modules.
+Compose Multiplatform (CMP) extends Jetpack Compose to desktop, iOS (stable since CMP 1.8, May 2025), and web, allowing shared UI in `commonMain` alongside shared logic. CMP releases track Jetpack Compose and pin a minimum Kotlin version (1.11 requires Kotlin 2.3.10 for native/web targets). It is a separate concern from core KMP — this pack treats CMP conceptually. Even with CMP, platform entry points, permissions, and system integrations remain in platform modules.
 
 ## Mental model
 

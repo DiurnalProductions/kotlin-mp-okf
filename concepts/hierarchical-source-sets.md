@@ -1,16 +1,15 @@
 ---
-id: kmp.hierarchical_source_sets
-type: concept
+type: Concept
 title: Hierarchical Source Sets
-description: The commonMain, androidMain, iosMain, jsMain hierarchy and intermediate sets like appleMain and nativeMain that reduce duplication across related targets.
+description: "The commonMain, androidMain, iosMain, jsMain hierarchy and intermediate sets like appleMain and nativeMain that reduce duplication across related targets."
 tags: [kotlin-multiplatform, source-sets, commonMain, androidMain, iosMain]
 prerequisites:
-  - kmp.source_sets
-  - kmp.shared_module
+  - concepts/source-sets
+  - concepts/shared-module
 related:
-  - kmp.platform_specific_overrides
-  - kmp.expect_actual_resolution
-resource: https://kotlinlang.org/docs/multiplatform-hierarchy.html
+  - concepts/platform-specific-overrides
+  - concepts/expect-actual-resolution
+resource: "https://kotlinlang.org/docs/multiplatform-hierarchy.html"
 timestamp: 2026-01-01
 ---
 

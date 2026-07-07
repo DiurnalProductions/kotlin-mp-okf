@@ -1,17 +1,16 @@
 ---
-id: kmp.abstraction_boundaries
-type: concept
+type: Concept
 title: Abstraction Boundaries
 description: Deliberate interfaces and module edges that isolate platform concerns from portable shared logic.
 tags: [kotlin-multiplatform, architecture, abstraction, boundaries]
 prerequisites:
-  - kmp.shared_vs_platform
-  - kmp.compilation_targets
+  - concepts/shared-vs-platform
+  - concepts/compilation-targets
 related:
-  - kmp.repository_abstraction
-  - kmp.expect_declarations
-  - kmp.filesystem_abstraction
-resource: https://kotlinlang.org/docs/multiplatform-connect-to-apis.html
+  - concepts/repository-abstraction
+  - concepts/expect-declarations
+  - concepts/filesystem-abstraction
+resource: "https://kotlinlang.org/docs/multiplatform-connect-to-apis.html"
 timestamp: 2026-01-01
 ---
 

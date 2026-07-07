@@ -1,16 +1,15 @@
 ---
-id: kmp.compilation_targets
-type: concept
+type: Concept
 title: Compilation Targets
-description: The distinct backends KMP compiles to — JVM, Native (iOS/macOS), JS/Wasm — and the runtime characteristics each imposes.
+description: "The distinct backends KMP compiles to — JVM, Native (iOS/macOS), JS/Wasm — and the runtime characteristics each imposes."
 tags: [kotlin-multiplatform, compilation, jvm, native, js]
 prerequisites:
-  - kmp.shared_vs_platform
+  - concepts/shared-vs-platform
 related:
-  - kmp.portability_constraints
-  - kmp.jvm_vs_native_runtime
-  - kmp.native_compilation_costs
-resource: https://kotlinlang.org/docs/multiplatform-dsl-reference.html#targets
+  - concepts/portability-constraints
+  - concepts/jvm-vs-native-runtime
+  - concepts/native-compilation-costs
+resource: "https://kotlinlang.org/docs/multiplatform-dsl-reference.html#targets"
 timestamp: 2026-01-01
 ---
 

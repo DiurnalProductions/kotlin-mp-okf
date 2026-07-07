@@ -1,16 +1,15 @@
 ---
-id: kmp.gradle_configuration
-type: concept
+type: Concept
 title: Gradle Configuration
-description: Conceptual model of KMP Gradle plugin setup including targets, source sets, dependencies, and publication.
+description: "Conceptual model of KMP Gradle plugin setup including targets, source sets, dependencies, and publication."
 tags: [kotlin-multiplatform, gradle, build, configuration]
 prerequisites:
-  - kmp.shared_module
-  - kmp.platform_modules
+  - concepts/shared-module
+  - concepts/platform-modules
 related:
-  - kmp.shared_dependencies
-  - kmp.platform_dependencies
-resource: https://kotlinlang.org/docs/multiplatform-dsl-reference.html
+  - concepts/shared-dependencies
+  - concepts/platform-dependencies
+resource: "https://kotlinlang.org/docs/multiplatform-dsl-reference.html"
 timestamp: 2026-01-01
 ---
 

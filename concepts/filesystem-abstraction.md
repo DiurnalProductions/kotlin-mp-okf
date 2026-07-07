@@ -1,15 +1,14 @@
 ---
-id: kmp.filesystem_abstraction
-type: concept
+type: Concept
 title: Filesystem Abstraction
 description: Isolating file and path operations behind shared interfaces so common code avoids platform-specific I/O APIs.
 tags: [kotlin-multiplatform, filesystem, abstraction, io]
 prerequisites:
-  - kmp.abstraction_boundaries
+  - concepts/abstraction-boundaries
 related:
-  - kmp.repository_abstraction
-  - kmp.device_capabilities
-resource: https://kotlinlang.org/docs/multiplatform-connect-to-apis.html
+  - concepts/repository-abstraction
+  - concepts/device-capabilities
+resource: "https://kotlinlang.org/docs/multiplatform-connect-to-apis.html"
 timestamp: 2026-01-01
 ---
 

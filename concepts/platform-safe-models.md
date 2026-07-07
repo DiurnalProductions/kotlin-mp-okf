@@ -1,16 +1,15 @@
 ---
-id: kmp.platform_safe_models
-type: concept
+type: Concept
 title: Platform-Safe Models
-description: Types, annotations, and patterns for domain and data models that compile and behave deterministically on every KMP target.
+description: "Types, annotations, and patterns for domain and data models that compile and behave deterministically on every KMP target."
 tags: [kotlin-multiplatform, models, types, portability]
 prerequisites:
-  - kmp.shared_dtos
-  - kmp.portability_constraints
+  - concepts/shared-dtos
+  - concepts/portability-constraints
 related:
-  - kmp.kotlinx_serialization
-  - kmp.time_apis
-resource: https://kotlinlang.org/docs/multiplatform-share-libraries.html
+  - concepts/kotlinx-serialization
+  - concepts/time-apis
+resource: "https://kotlinlang.org/docs/multiplatform-share-libraries.html"
 timestamp: 2026-01-01
 ---
 

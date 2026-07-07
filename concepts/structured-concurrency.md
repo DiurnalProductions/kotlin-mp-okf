@@ -1,16 +1,15 @@
 ---
-id: kmp.structured_concurrency
-type: concept
+type: Concept
 title: Structured Concurrency
-description: Scopes, parent-child job relationships, and cancellation propagation consistent across KMP targets.
+description: "Scopes, parent-child job relationships, and cancellation propagation consistent across KMP targets."
 tags: [kotlin-multiplatform, coroutines, structured-concurrency, cancellation]
 prerequisites:
-  - kmp.coroutines_multiplatform
-  - kmp.dispatchers_differences
+  - concepts/coroutines-multiplatform
+  - concepts/dispatchers-differences
 related:
-  - kmp.coroutines_multiplatform
-  - kmp.platform_threading_model
-resource: https://kotlinlang.org/docs/cancellation.html
+  - concepts/coroutines-multiplatform
+  - concepts/platform-threading-model
+resource: "https://kotlinlang.org/docs/cancellation.html"
 timestamp: 2026-01-01
 ---
 

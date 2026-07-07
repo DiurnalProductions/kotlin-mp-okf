@@ -1,17 +1,16 @@
 ---
-id: kmp.clean_architecture_kmp
-type: concept
+type: Concept
 title: Clean Architecture in KMP
-description: Layering domain, data, and presentation in KMP with strict dependency direction and platform implementations at the outer edge.
+description: "Layering domain, data, and presentation in KMP with strict dependency direction and platform implementations at the outer edge."
 tags: [kotlin-multiplatform, clean-architecture, layers, architecture]
 prerequisites:
-  - kmp.shared_domain_layer
-  - kmp.repository_abstraction
+  - concepts/shared-domain-layer
+  - concepts/repository-abstraction
 related:
-  - kmp.dependency_inversion
-  - kmp.shared_logic_vs_ui
-  - kmp.ui_leakage_prevention
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/dependency-inversion
+  - concepts/shared-logic-vs-ui
+  - concepts/ui-leakage-prevention
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: kmp.dependency_inversion
-type: concept
+type: Concept
 title: Dependency Inversion Across Platforms
 description: Injecting platform implementations into shared logic at application composition roots using DI frameworks or manual wiring.
 tags: [kotlin-multiplatform, dependency-injection, architecture, di]
 prerequisites:
-  - kmp.repository_abstraction
-  - kmp.platform_modules
+  - concepts/repository-abstraction
+  - concepts/platform-modules
 related:
-  - kmp.clean_architecture_kmp
-  - kmp.expect_actual_architecture
-  - kmp.mocking_expectations
-resource: https://kotlinlang.org/docs/multiplatform-connect-to-apis.html
+  - concepts/clean-architecture-kmp
+  - concepts/expect-actual-architecture
+  - concepts/mocking-expectations
+resource: "https://kotlinlang.org/docs/multiplatform-connect-to-apis.html"
 timestamp: 2026-01-01
 ---
 

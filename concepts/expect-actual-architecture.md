@@ -1,16 +1,15 @@
 ---
-id: kmp.expect_actual_architecture
-type: concept
+type: Concept
 title: Expect/Actual Architecture
-description: Architectural guidance for when expect/actual is appropriate versus interfaces, and how to avoid making it the center of your design.
+description: "Architectural guidance for when expect/actual is appropriate versus interfaces, and how to avoid making it the center of your design."
 tags: [kotlin-multiplatform, expect-actual, architecture]
 prerequisites:
-  - kmp.expect_actual_resolution
-  - kmp.abstraction_boundaries
+  - concepts/expect-actual-resolution
+  - concepts/abstraction-boundaries
 related:
-  - kmp.dependency_inversion
-  - kmp.repository_abstraction
-resource: https://kotlinlang.org/docs/multiplatform-connect-to-apis.html
+  - concepts/dependency-inversion
+  - concepts/repository-abstraction
+resource: "https://kotlinlang.org/docs/multiplatform-connect-to-apis.html"
 timestamp: 2026-01-01
 ---
 

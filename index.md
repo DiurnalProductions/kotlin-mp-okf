@@ -1,3 +1,12 @@
+---
+okf_version: "0.1"
+id: kotlin-mp-okf
+name: Kotlin Multiplatform Knowledge Pack
+version: "0.1"
+description: "OKF knowledge base for Kotlin Multiplatform (shared code, expect/actual, platform abstraction, architecture, and concurrency)"
+tags: [kotlin, multiplatform, kmp, shared-code, architecture]
+---
+
 # Kotlin Multiplatform Knowledge Pack
 
 > Kotlin Multiplatform is a system for sharing logic across platforms while preserving platform-native implementations where necessary.

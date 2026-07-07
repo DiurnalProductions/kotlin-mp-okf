@@ -1,16 +1,15 @@
 ---
-id: kmp.native_compilation_costs
-type: concept
+type: Concept
 title: Native Compilation Costs
-description: Build time, tooling overhead, and developer workflow impact of Kotlin/Native targets in KMP projects.
+description: "Build time, tooling overhead, and developer workflow impact of Kotlin/Native targets in KMP projects."
 tags: [kotlin-multiplatform, native, compilation, build-time]
 prerequisites:
-  - kmp.compilation_targets
+  - concepts/compilation-targets
 related:
-  - kmp.startup_time
-  - kmp.transitive_constraints
-  - kmp.jvm_vs_native_runtime
-resource: https://kotlinlang.org/docs/native-overview.html
+  - concepts/startup-time
+  - concepts/transitive-constraints
+  - concepts/jvm-vs-native-runtime
+resource: "https://kotlinlang.org/docs/native-overview.html"
 timestamp: 2026-01-01
 ---
 

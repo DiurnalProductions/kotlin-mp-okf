@@ -1,16 +1,15 @@
 ---
-id: kmp.jvm_vs_native_runtime
-type: concept
+type: Concept
 title: JVM vs Native Runtime
 description: Execution model differences between JVM/ART and Kotlin/Native LLVM binaries affecting performance and design.
 tags: [kotlin-multiplatform, jvm, native, runtime, performance]
 prerequisites:
-  - kmp.compilation_targets
+  - concepts/compilation-targets
 related:
-  - kmp.memory_model_differences
-  - kmp.startup_time
-  - kmp.native_compilation_costs
-resource: https://kotlinlang.org/docs/native-overview.html
+  - concepts/memory-model-differences
+  - concepts/startup-time
+  - concepts/native-compilation-costs
+resource: "https://kotlinlang.org/docs/native-overview.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,16 +1,15 @@
 ---
-id: kmp.threading_differences
-type: concept
+type: Concept
 title: Threading Differences
-description: How threads, main loops, and execution models differ across JVM, Native, and JS KMP targets.
+description: "How threads, main loops, and execution models differ across JVM, Native, and JS KMP targets."
 tags: [kotlin-multiplatform, threading, concurrency, platform]
 prerequisites:
-  - kmp.abstraction_boundaries
+  - concepts/abstraction-boundaries
 related:
-  - kmp.platform_threading_model
-  - kmp.coroutines_multiplatform
-  - kmp.dispatchers_differences
-resource: https://kotlinlang.org/docs/multiplatform-mobile-understand-threading-model.html
+  - concepts/platform-threading-model
+  - concepts/coroutines-multiplatform
+  - concepts/dispatchers-differences
+resource: "https://kotlinlang.org/docs/multiplatform-mobile-understand-threading-model.html"
 timestamp: 2026-01-01
 ---
 

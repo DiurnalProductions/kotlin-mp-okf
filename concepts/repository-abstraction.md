@@ -1,17 +1,16 @@
 ---
-id: kmp.repository_abstraction
-type: concept
+type: Concept
 title: Repository Abstraction
 description: Defining data access interfaces in shared code with platform or multiplatform implementations behind the boundary.
 tags: [kotlin-multiplatform, repository, data-layer, abstraction]
 prerequisites:
-  - kmp.shared_domain_layer
-  - kmp.abstraction_boundaries
+  - concepts/shared-domain-layer
+  - concepts/abstraction-boundaries
 related:
-  - kmp.dependency_inversion
-  - kmp.networking_abstraction
-  - kmp.filesystem_abstraction
-resource: https://kotlinlang.org/docs/multiplatform-connect-to-apis.html
+  - concepts/dependency-inversion
+  - concepts/networking-abstraction
+  - concepts/filesystem-abstraction
+resource: "https://kotlinlang.org/docs/multiplatform-connect-to-apis.html"
 timestamp: 2026-01-01
 ---
 

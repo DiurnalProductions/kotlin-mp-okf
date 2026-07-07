@@ -1,16 +1,15 @@
 ---
-id: kmp.platform_specific_tests
-type: concept
+type: Concept
 title: Platform-Specific Tests
-description: androidTest, iosTest, and target-specific tests for actual implementations, integrations, and platform SDK behavior.
+description: "androidTest, iosTest, and target-specific tests for actual implementations, integrations, and platform SDK behavior."
 tags: [kotlin-multiplatform, testing, androidTest, iosTest]
 prerequisites:
-  - kmp.platform_modules
-  - kmp.shared_tests
+  - concepts/platform-modules
+  - concepts/shared-tests
 related:
-  - kmp.test_source_sets
-  - kmp.mocking_expectations
-resource: https://kotlinlang.org/docs/multiplatform-run-tests.html
+  - concepts/test-source-sets
+  - concepts/mocking-expectations
+resource: "https://kotlinlang.org/docs/multiplatform-run-tests.html"
 timestamp: 2026-01-01
 ---
 

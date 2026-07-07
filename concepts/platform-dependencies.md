@@ -1,15 +1,14 @@
 ---
-id: kmp.platform_dependencies
-type: concept
+type: Concept
 title: Platform Dependencies
 description: Target-specific libraries declared in platform source sets that must never leak into commonMain shared code.
 tags: [kotlin-multiplatform, dependencies, platform, android, ios]
 prerequisites:
-  - kmp.gradle_configuration
+  - concepts/gradle-configuration
 related:
-  - kmp.shared_dependencies
-  - kmp.abstraction_boundaries
-resource: https://kotlinlang.org/docs/multiplatform-add-dependencies.html
+  - concepts/shared-dependencies
+  - concepts/abstraction-boundaries
+resource: "https://kotlinlang.org/docs/multiplatform-add-dependencies.html"
 timestamp: 2026-01-01
 ---
 

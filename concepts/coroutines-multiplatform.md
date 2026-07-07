@@ -1,16 +1,15 @@
 ---
-id: kmp.coroutines_multiplatform
-type: concept
+type: Concept
 title: Coroutines Across Platforms
 description: Using kotlinx.coroutines as the shared concurrency primitive that compiles and behaves consistently across KMP targets.
 tags: [kotlin-multiplatform, coroutines, concurrency, async]
 prerequisites:
-  - kmp.threading_differences
+  - concepts/threading-differences
 related:
-  - kmp.dispatchers_differences
-  - kmp.structured_concurrency
-  - kmp.platform_threading_model
-resource: https://github.com/Kotlin/kotlinx.coroutines/blob/master/README.md
+  - concepts/dispatchers-differences
+  - concepts/structured-concurrency
+  - concepts/platform-threading-model
+resource: "https://github.com/Kotlin/kotlinx.coroutines/blob/master/README.md"
 timestamp: 2026-01-01
 ---
 

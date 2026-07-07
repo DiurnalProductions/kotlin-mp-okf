@@ -1,16 +1,15 @@
 ---
-id: kmp.actual_implementations
-type: concept
+type: Concept
 title: Actual Implementations
 description: Platform-specific implementations that fulfill expect declarations declared in shared common code.
 tags: [kotlin-multiplatform, expect-actual, implementations]
 prerequisites:
-  - kmp.expect_declarations
+  - concepts/expect-declarations
 related:
-  - kmp.expect_actual_resolution
-  - kmp.platform_specific_overrides
-  - kmp.platform_modules
-resource: https://kotlinlang.org/docs/multiplatform-expect-actual.html
+  - concepts/expect-actual-resolution
+  - concepts/platform-specific-overrides
+  - concepts/platform-modules
+resource: "https://kotlinlang.org/docs/multiplatform-expect-actual.html"
 timestamp: 2026-01-01
 ---
 

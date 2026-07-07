@@ -1,16 +1,15 @@
 ---
-id: kmp.device_capabilities
-type: concept
+type: Concept
 title: Device Capabilities
-description: Accessing sensors, permissions, biometrics, and hardware features through abstractions rather than direct platform API usage in shared code.
+description: "Accessing sensors, permissions, biometrics, and hardware features through abstractions rather than direct platform API usage in shared code."
 tags: [kotlin-multiplatform, device, capabilities, permissions]
 prerequisites:
-  - kmp.abstraction_boundaries
-  - kmp.expect_declarations
+  - concepts/abstraction-boundaries
+  - concepts/expect-declarations
 related:
-  - kmp.filesystem_abstraction
-  - kmp.platform_modules
-resource: https://kotlinlang.org/docs/multiplatform-connect-to-apis.html
+  - concepts/filesystem-abstraction
+  - concepts/platform-modules
+resource: "https://kotlinlang.org/docs/multiplatform-connect-to-apis.html"
 timestamp: 2026-01-01
 ---
 

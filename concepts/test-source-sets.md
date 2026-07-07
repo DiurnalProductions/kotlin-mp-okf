@@ -1,16 +1,15 @@
 ---
-id: kmp.test_source_sets
-type: concept
+type: Concept
 title: Test Source Sets
-description: commonTest, androidUnitTest, iosTest, and hierarchical test source set wiring for KMP projects.
+description: "commonTest, androidUnitTest, iosTest, and hierarchical test source set wiring for KMP projects."
 tags: [kotlin-multiplatform, testing, source-sets, gradle]
 prerequisites:
-  - kmp.source_sets
-  - kmp.shared_tests
+  - concepts/source-sets
+  - concepts/shared-tests
 related:
-  - kmp.platform_specific_tests
-  - kmp.gradle_configuration
-resource: https://kotlinlang.org/docs/multiplatform-set-up-tests.html
+  - concepts/platform-specific-tests
+  - concepts/gradle-configuration
+resource: "https://kotlinlang.org/docs/multiplatform-set-up-tests.html"
 timestamp: 2026-01-01
 ---
 

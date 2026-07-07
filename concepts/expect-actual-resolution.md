@@ -1,16 +1,15 @@
 ---
-id: kmp.expect_actual_resolution
-type: concept
+type: Concept
 title: Expect/Actual Resolution Rules
 description: Compiler rules governing how expect declarations in common code are matched to actual implementations per target.
 tags: [kotlin-multiplatform, expect-actual, compilation]
 prerequisites:
-  - kmp.expect_declarations
-  - kmp.actual_implementations
+  - concepts/expect-declarations
+  - concepts/actual-implementations
 related:
-  - kmp.platform_specific_overrides
-  - kmp.hierarchical_source_sets
-resource: https://kotlinlang.org/docs/multiplatform-expect-actual.html#rules-for-expected-and-actual-declarations
+  - concepts/platform-specific-overrides
+  - concepts/hierarchical-source-sets
+resource: "https://kotlinlang.org/docs/multiplatform-expect-actual.html#rules-for-expected-and-actual-declarations"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: kmp.kotlinx_serialization
-type: concept
+type: Concept
 title: kotlinx.serialization
 description: Multiplatform serialization framework for encoding and decoding structured data in shared KMP code.
 tags: [kotlin-multiplatform, serialization, kotlinx-serialization, json]
 prerequisites:
-  - kmp.portability_constraints
-  - kmp.shared_module
+  - concepts/portability-constraints
+  - concepts/shared-module
 related:
-  - kmp.shared_dtos
-  - kmp.serialization_formats
-  - kmp.platform_safe_models
-resource: https://github.com/Kotlin/kotlinx.serialization
+  - concepts/shared-dtos
+  - concepts/serialization-formats
+  - concepts/platform-safe-models
+resource: "https://github.com/Kotlin/kotlinx.serialization"
 timestamp: 2026-01-01
 ---
 

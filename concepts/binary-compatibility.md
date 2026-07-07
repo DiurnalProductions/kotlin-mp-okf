@@ -1,16 +1,15 @@
 ---
-id: kmp.binary_compatibility
-type: concept
+type: Concept
 title: Binary Compatibility
 description: ABI stability concerns when publishing or consuming KMP libraries across versions and targets.
 tags: [kotlin-multiplatform, binary-compatibility, publishing, libraries]
 prerequisites:
-  - kmp.shared_dependencies
-  - kmp.transitive_constraints
+  - concepts/shared-dependencies
+  - concepts/transitive-constraints
 related:
-  - kmp.portability_constraints
-  - kmp.shared_module
-resource: https://kotlinlang.org/docs/multiplatform-publish-lib.html
+  - concepts/portability-constraints
+  - concepts/shared-module
+resource: "https://kotlinlang.org/docs/multiplatform-publish-lib.html"
 timestamp: 2026-01-01
 ---
 

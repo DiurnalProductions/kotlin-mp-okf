@@ -1,16 +1,15 @@
 ---
-id: kmp.shared_dependencies
-type: concept
+type: Concept
 title: Shared Dependencies
 description: Multiplatform libraries declared in commonMain that must compile and link for every declared target.
 tags: [kotlin-multiplatform, dependencies, libraries, commonMain]
 prerequisites:
-  - kmp.gradle_configuration
+  - concepts/gradle-configuration
 related:
-  - kmp.transitive_constraints
-  - kmp.portability_constraints
-  - kmp.binary_compatibility
-resource: https://kotlinlang.org/docs/multiplatform-add-dependencies.html
+  - concepts/transitive-constraints
+  - concepts/portability-constraints
+  - concepts/binary-compatibility
+resource: "https://kotlinlang.org/docs/multiplatform-add-dependencies.html"
 timestamp: 2026-01-01
 ---
 

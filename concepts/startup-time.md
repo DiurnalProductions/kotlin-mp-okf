@@ -1,16 +1,15 @@
 ---
-id: kmp.startup_time
-type: concept
+type: Concept
 title: Startup Time Considerations
-description: Cold start, framework initialization, binary size, and lazy loading trade-offs across KMP targets.
+description: "Cold start, framework initialization, binary size, and lazy loading trade-offs across KMP targets."
 tags: [kotlin-multiplatform, performance, startup, binary-size]
 prerequisites:
-  - kmp.jvm_vs_native_runtime
-  - kmp.native_compilation_costs
+  - concepts/jvm-vs-native-runtime
+  - concepts/native-compilation-costs
 related:
-  - kmp.transitive_constraints
-  - kmp.shared_dependencies
-resource: https://kotlinlang.org/docs/native-overview.html
+  - concepts/transitive-constraints
+  - concepts/shared-dependencies
+resource: "https://kotlinlang.org/docs/native-overview.html"
 timestamp: 2026-01-01
 ---
 

@@ -1,17 +1,16 @@
 ---
-id: kmp.platform_modules
-type: concept
+type: Concept
 title: Platform Modules
-description: Target-specific application or library modules that consume the shared KMP module and host UI, DI wiring, and platform integrations.
+description: "Target-specific application or library modules that consume the shared KMP module and host UI, DI wiring, and platform integrations."
 tags: [kotlin-multiplatform, modules, android, ios, platform]
 prerequisites:
-  - kmp.source_sets
-  - kmp.shared_module
+  - concepts/source-sets
+  - concepts/shared-module
 related:
-  - kmp.actual_implementations
-  - kmp.dependency_inversion
-  - kmp.shared_logic_vs_ui
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/actual-implementations
+  - concepts/dependency-inversion
+  - concepts/shared-logic-vs-ui
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 

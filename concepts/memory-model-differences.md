@@ -1,16 +1,15 @@
 ---
-id: kmp.memory_model_differences
-type: concept
+type: Concept
 title: Memory Model Differences
-description: Shared mutable state, object freezing, and concurrency rules that differ across JVM, Native, and JS KMP targets.
+description: "Shared mutable state, object freezing, and concurrency rules that differ across JVM, Native, and JS KMP targets."
 tags: [kotlin-multiplatform, memory-model, concurrency, native]
 prerequisites:
-  - kmp.compilation_targets
-  - kmp.threading_differences
+  - concepts/compilation-targets
+  - concepts/threading-differences
 related:
-  - kmp.platform_threading_model
-  - kmp.jvm_vs_native_runtime
-resource: https://kotlinlang.org/docs/native-migration-guide.html
+  - concepts/platform-threading-model
+  - concepts/jvm-vs-native-runtime
+resource: "https://kotlinlang.org/docs/native-migration-guide.html"
 timestamp: 2026-01-01
 ---
 

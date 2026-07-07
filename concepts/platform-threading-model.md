@@ -1,16 +1,15 @@
 ---
-id: kmp.platform_threading_model
-type: concept
+type: Concept
 title: Platform Threading Model
-description: Deep comparison of JVM threads, Kotlin/Native workers, and JavaScript single-threaded execution as they affect KMP design.
+description: "Deep comparison of JVM threads, Kotlin/Native workers, and JavaScript single-threaded execution as they affect KMP design."
 tags: [kotlin-multiplatform, threading, jvm, native, js]
 prerequisites:
-  - kmp.threading_differences
+  - concepts/threading-differences
 related:
-  - kmp.memory_model_differences
-  - kmp.dispatchers_differences
-  - kmp.jvm_vs_native_runtime
-resource: https://kotlinlang.org/docs/native-migration-guide.html
+  - concepts/memory-model-differences
+  - concepts/dispatchers-differences
+  - concepts/jvm-vs-native-runtime
+resource: "https://kotlinlang.org/docs/native-migration-guide.html"
 timestamp: 2026-01-01
 ---
 

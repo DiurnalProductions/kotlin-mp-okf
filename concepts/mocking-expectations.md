@@ -1,16 +1,15 @@
 ---
-id: kmp.mocking_expectations
-type: concept
+type: Concept
 title: Mocking Expectations
-description: Fakes, test doubles, and stub strategies for abstractions and expect declarations in KMP tests.
+description: "Fakes, test doubles, and stub strategies for abstractions and expect declarations in KMP tests."
 tags: [kotlin-multiplatform, testing, mocking, fakes]
 prerequisites:
-  - kmp.abstraction_boundaries
-  - kmp.expect_declarations
+  - concepts/abstraction-boundaries
+  - concepts/expect-declarations
 related:
-  - kmp.shared_tests
-  - kmp.repository_abstraction
-resource: https://kotlinlang.org/docs/multiplatform-run-tests.html
+  - concepts/shared-tests
+  - concepts/repository-abstraction
+resource: "https://kotlinlang.org/docs/multiplatform-run-tests.html"
 timestamp: 2026-01-01
 ---
 

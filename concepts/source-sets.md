@@ -1,16 +1,15 @@
 ---
-id: kmp.source_sets
-type: concept
+type: Concept
 title: Source Sets
 description: Gradle source set groupings that map Kotlin files to compilation targets and define dependency relationships between code layers.
 tags: [kotlin-multiplatform, source-sets, gradle, project-structure]
 prerequisites:
-  - kmp.shared_vs_platform
+  - concepts/shared-vs-platform
 related:
-  - kmp.hierarchical_source_sets
-  - kmp.shared_module
-  - kmp.test_source_sets
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html#source-sets
+  - concepts/hierarchical-source-sets
+  - concepts/shared-module
+  - concepts/test-source-sets
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html#source-sets"
 timestamp: 2026-01-01
 ---
 

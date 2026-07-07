@@ -1,15 +1,13 @@
 ---
-id: kmp.shared_vs_platform
-type: concept
+type: Concept
 title: Shared vs Platform Code
 description: The foundational split between portable business logic in common source sets and platform-specific implementations in target source sets.
 tags: [kotlin-multiplatform, shared-code, architecture, fundamentals]
-prerequisites: []
 related:
-  - kmp.compilation_targets
-  - kmp.abstraction_boundaries
-  - kmp.shared_module
-resource: https://kotlinlang.org/docs/multiplatform-discover-project.html
+  - concepts/compilation-targets
+  - concepts/abstraction-boundaries
+  - concepts/shared-module
+resource: "https://kotlinlang.org/docs/multiplatform-discover-project.html"
 timestamp: 2026-01-01
 ---
 
